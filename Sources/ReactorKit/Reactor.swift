@@ -129,7 +129,6 @@ extension Reactor {
       }
       .catchError { _ in .empty() }
       .startWith(self.initialState)
-      .observeOn(MainScheduler.instance)
     let transformedState = self.transform(state: state)
       .do(onNext: { [weak self] state in
         self?.currentState = state
