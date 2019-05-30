@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-  s.name             = "ReactorKit"
+  s.name             = "Arpeggi+ReactorKit"
   s.version          = "1.2.1.1"
   s.summary          = "A framework for reactive and unidirectional Swift application architecture"
-  s.homepage         = "https://github.com/ReactorKit/ReactorKit"
+  s.homepage         = "https://github.com/arpeggi/ReactorKit"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Suyeol Jeon" => "devxoul@gmail.com" }
   s.source           = { :git => "https://github.com/arpeggi/ReactorKit",
